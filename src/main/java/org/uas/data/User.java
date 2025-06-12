@@ -1,6 +1,8 @@
 package org.uas.data;
 
-public class User {
+import java.io.Serializable;
+
+public class User implements Serializable {
     private String email; //should be unique
     private String username;
     private String password;
